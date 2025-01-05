@@ -38,6 +38,8 @@ article {
 .illustration {
   border-radius: 10px;
   margin-bottom: 24px;
+  display: block;
+  max-width: 100%;
 }
 
 .text-description {
@@ -101,4 +103,25 @@ article {
   line-height: 150%;
   letter-spacing: 0;
   font-weight: 800;
+}
+
+/* MOBILE */
+@media (max-width: 450px) {
+  article {
+    width: 20.4375rem;
+  }
+
+  .tag,
+  .publication-date {
+    font-size: 12px;
+  }
+
+  .course-link:link,
+  .course-link:visited {
+    font-size: 20px;
+  }
+
+  .course-description {
+    font-size: 14px;
+  }
 }
