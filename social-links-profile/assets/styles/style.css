@@ -32,20 +32,20 @@ body {
 
 main {
   background-color: var(--Grey-800);
-  width: 384px;
-  padding: 40px;
-  border-radius: 12px;
+  width: 24rem;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
 
   /* Centralize card content */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .img-container {
-  width: 88px;
+  width: 5.5rem;
 }
 
 .img {
@@ -62,20 +62,20 @@ header {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 150%;
 }
 
 .location {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   line-height: 150%;
   color: var(--Green);
 }
 
 .description {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 150%;
 }
@@ -84,7 +84,7 @@ nav {
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   text-align: center;
 }
 
@@ -96,12 +96,12 @@ li a:link,
 li a:visited {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  padding: 12px 0;
+  padding: 0.75rem 0;
   background-color: var(--Grey-700);
   height: 45px;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
