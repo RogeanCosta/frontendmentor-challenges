@@ -82,13 +82,13 @@ header {
 
 nav {
   align-self: stretch;
+  /* text-align: center; */
+}
+
+ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  text-align: center;
-}
-
-li {
   list-style: none;
 }
 
