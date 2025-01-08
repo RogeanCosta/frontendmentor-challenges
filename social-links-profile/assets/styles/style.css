@@ -113,3 +113,17 @@ li a:active {
   background-color: var(--Green);
   cursor: url(../images/handcursor.svg), auto;
 }
+
+/* TABLET */
+@media (max-width: 800px) {
+  main {
+    width: 31.25rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  main {
+    width: 20.4375rem;
+  }
+}
