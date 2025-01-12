@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Young';
+  src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+:root {
+  /* Rose Colors */
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+
+  /* Stone Colors */
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+
+  /* Brown and White Colors */
+  --brown-800: #854632;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--stone-100);
+
+  /* Inheritance */
+  font-family: 'Outfit';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--stone-600);
+
+  /* Centralize Card */
+  height: 122.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--white);
+  width: 46rem;
+  height: 106.25rem;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.img-container {
+  width: 41rem;
+  height: 18.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.75rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.recipe-title {
+  font-family: 'Young';
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--stone-900);
+  margin-bottom: 1.5rem;
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.preparation-time {
+  color: var(--rose-800);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li::marker {
+  font-size: 0.75rem;
+}
+
+.preparation li::marker {
+  color: var(--rose-800);
+}
+
+.ingredients {
+  margin-bottom: 2rem;
+}
+
+.ingredients li::marker {
+  color: var(--brown-800);
+}
+
+.ingredients-title,
+.instructions-title,
+.nutritional-title {
+  font-family: 'Young';
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--brown-800);
+  margin-bottom: 1.5rem;
+}
+
+.instructions {
+  padding: 2rem 0;
+  border-top: 1px solid var(--stone-150);
+  border-bottom: 1px solid var(--stone-150);
+  margin-bottom: 2rem;
+}
+
+ol {
+  margin-left: 1.5rem;
+}
+
+ol li::marker {
+  color: var(--brown-800);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.nutritional-description {
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 41rem;
+  height: 10.5rem;
+}
+
+td,
+th {
+  border-collapse: collapse;
+  border-bottom: 1px solid var(--stone-150);
+  text-align: start;
+}
+
+th {
+  width: 18rem;
+  font-weight: 400;
+  text-align: start;
+  padding-left: 2rem;
+}
+
+td {
+  width: 18rem;
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+tr:last-child th,
+tr:last-child td {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
