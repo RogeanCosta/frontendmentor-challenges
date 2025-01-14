@@ -24,10 +24,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 **Result for hover/focus in Desktop Design**
 ![](./images/nft-desktop-hover-solution.PNG)
 
+**Result for mobile Design**
+![](./images/nft-mobile-solution.PNG)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/nft-preview-card-component/
 
 ## My process
 

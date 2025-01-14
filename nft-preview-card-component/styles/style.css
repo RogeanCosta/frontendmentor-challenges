@@ -174,3 +174,35 @@ img {
 .creator-assignment a:active {
   color: var(--cyan);
 }
+
+@media (max-width: 400px) {
+  main {
+    width: 20.4375rem;
+    height: 33.9375rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .cube-img-container {
+    width: 17.375rem;
+    height: 17.375rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+
+  .card-description {
+    margin-bottom: 1rem;
+  }
+
+  .data-container {
+    padding-bottom: 1rem;
+  }
+
+  .days-left-value,
+  .ethereum-value,
+  .creator-assignment {
+    font-size: 0.75rem;
+  }
+}
