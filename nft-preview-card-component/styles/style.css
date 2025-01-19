@@ -77,13 +77,13 @@ img {
 }
 
 .card-title {
+  font-size: 1.375rem;
+  font-weight: var(--semi-bold);
   margin-bottom: 1rem;
 }
 
 .card-title a:link,
 .card-title a:visited {
-  font-size: 1.375rem;
-  font-weight: var(--semi-bold);
   color: var(--white);
   text-decoration: none;
 }
