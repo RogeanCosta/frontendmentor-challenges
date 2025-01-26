@@ -21,8 +21,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 **Result for Desktop Design**
 ![](./design/profile-card-desktop-solution.PNG)
 
-<!-- **Result for mobile Design**
-![](./images/nft-mobile-solution.PNG) -->
+**Result for mobile Design**
+![](./design/profile-card-mobile-solution.PNG)
 
 ### Links
 

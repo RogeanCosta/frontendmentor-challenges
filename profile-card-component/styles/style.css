@@ -53,14 +53,14 @@ body {
 }
 
 .img-container {
-  width: 6.625rem;
-  height: 6.625rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .img-container img {
   display: block;
   width: 100%;
-  border: 5px solid #fff;
+  outline: 5px solid #fff;
   border-radius: 50%;
 }
 
@@ -119,4 +119,21 @@ body {
   letter-spacing: 1.5px;
   font-weight: var(--regular);
   color: var(--grayish-blue);
+}
+
+@media (max-width: 500px) {
+  body {
+    background: url(../images/bg-pattern-top.svg) no-repeat top 200% left 125%,
+      url(../images/bg-pattern-bottom.svg) no-repeat bottom 200% right 125%,
+      var(--dark-cyan);
+  }
+
+  .container {
+    width: 20.375rem;
+    height: 23.375rem;
+  }
+
+  .user-city::after {
+    width: 20.375rem;
+  }
 }
