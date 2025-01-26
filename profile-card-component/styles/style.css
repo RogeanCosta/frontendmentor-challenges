@@ -1,0 +1,122 @@
+:root {
+  /* Colors */
+  --dark-cyan: #19a2ae;
+  --desatured-blue: #2e3349;
+  --grayish-blue: #6b7082;
+  --ligth-gray: #e8e9ec;
+
+  /* Weights */
+  --regular: 400;
+  --bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans';
+  color: var(--desatured-blue);
+  font-size: 18px;
+  font-weight: var(--bold);
+  background: url(../images/bg-pattern-top.svg) no-repeat top 200% left -45%,
+    url(../images/bg-pattern-bottom.svg) no-repeat bottom 250% right -35%,
+    var(--dark-cyan);
+
+  /* Centralize main container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: url('../images/bg-pattern-card.svg') no-repeat, #fff;
+  border-radius: 15px;
+  width: 350px;
+  height: 374px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.5);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  width: 106px;
+  height: 106px;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 18.2px;
+}
+
+.user-info h1 {
+  font-size: 18px;
+}
+
+.user-info p {
+  color: var(--grayish-blue);
+  font-weight: var(--regular);
+}
+
+.user-city {
+  font-size: 14px;
+  font-weight: var(--regular);
+  color: var(--grayish-blue);
+  margin-top: 8px;
+  text-align: center;
+}
+
+.user-city::after {
+  content: '';
+  display: block;
+  width: 350px;
+  height: 1px;
+  margin-top: 28px;
+  background-color: var(--ligth-gray);
+}
+
+.user-stats {
+  display: flex;
+  gap: 46px;
+  margin: 24px 0;
+}
+
+.user-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.user-stat h2 {
+  font-size: 18px;
+}
+
+.user-stat p {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: var(--regular);
+  color: var(--grayish-blue);
+}
