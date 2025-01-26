@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-<!-- - Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges -->
-<!-- - Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/nft-preview-card-component/ -->
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/profile-card-component
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/profile-card-component/
 
 ## My process
 

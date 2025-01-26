@@ -19,7 +19,7 @@
 body {
   font-family: 'Kumbh Sans';
   color: var(--desatured-blue);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: var(--bold);
   background: url(../images/bg-pattern-top.svg) no-repeat top 200% left -45%,
     url(../images/bg-pattern-bottom.svg) no-repeat bottom 250% right -35%,
@@ -35,9 +35,9 @@ body {
 
 .container {
   background: url('../images/bg-pattern-card.svg') no-repeat, #fff;
-  border-radius: 15px;
-  width: 350px;
-  height: 374px;
+  border-radius: 0.9375rem;
+  width: 21.875rem;
+  height: 23.375rem;
 
   display: flex;
   flex-direction: column;
@@ -53,8 +53,8 @@ body {
 }
 
 .img-container {
-  width: 106px;
-  height: 106px;
+  width: 6.625rem;
+  height: 6.625rem;
 }
 
 .img-container img {
@@ -68,11 +68,11 @@ body {
   display: flex;
   align-items: center;
   gap: 9px;
-  margin-top: 18.2px;
+  margin-top: 1.125rem;
 }
 
 .user-info h1 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .user-info p {
@@ -81,41 +81,41 @@ body {
 }
 
 .user-city {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: var(--regular);
   color: var(--grayish-blue);
-  margin-top: 8px;
+  margin-top: 0.5rem;
   text-align: center;
 }
 
 .user-city::after {
   content: '';
   display: block;
-  width: 350px;
+  width: 21.875rem;
   height: 1px;
-  margin-top: 28px;
+  margin-top: 1.75rem;
   background-color: var(--ligth-gray);
 }
 
 .user-stats {
   display: flex;
-  gap: 46px;
-  margin: 24px 0;
+  gap: 2.875rem;
+  margin: 1.5rem 0;
 }
 
 .user-stat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 9px;
+  gap: 0.5625rem;
 }
 
 .user-stat h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .user-stat p {
-  font-size: 10px;
+  font-size: 0.625rem;
   letter-spacing: 1.5px;
   font-weight: var(--regular);
   color: var(--grayish-blue);
