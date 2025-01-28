@@ -31,8 +31,8 @@ In construction...
 
 ### Links
 
-- Solution URL: <!--https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/profile-card-component -->
-- Live Site URL: <!--https://rogeancosta.github.io/frontendmentor-challenges/profile-card-component/-->
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/order-summary-component
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/order-summary-component/
 
 ## My process
 
