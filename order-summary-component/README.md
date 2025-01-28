@@ -25,9 +25,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ![](./design/order-summary-component-desktop-hover-solution.PNG)
 
 **Result for mobile Design**
-In construction...
-
-<!-- ![](./design/profile-card-mobile-solution.PNG) -->
+![](./design/order-summary-component-mobile-solution.PNG)
 
 ### Links
 
