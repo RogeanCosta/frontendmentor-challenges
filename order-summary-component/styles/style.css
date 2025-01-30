@@ -122,6 +122,7 @@ body {
   font-size: 0.875rem;
   font-weight: var(--bold);
   color: var(--medium-blue);
+  transition: color 0.3s;
 }
 
 .change-plan-link:hover,
@@ -146,6 +147,7 @@ body {
   color: var(--white);
   border-radius: 11px;
   box-shadow: 0 20px 20px 0 rgba(56, 42, 255, 0.1903);
+  transition: background-color 0.3s;
 }
 
 .confirm-btn:hover,
@@ -159,6 +161,7 @@ body {
   font-weight: var(--black);
   color: var(--light-blue-2);
   text-decoration: none;
+  transition: color 0.2s;
 }
 
 .cancel-order-link:hover,
