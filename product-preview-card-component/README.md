@@ -27,8 +27,8 @@ In construction...
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/product-preview-card-component
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/product-preview-card-component/
 
 ## My process
 

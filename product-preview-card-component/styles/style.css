@@ -29,8 +29,8 @@ body {
 }
 
 .container {
-  width: 600px;
-  height: 450px;
+  width: 37.5rem;
+  height: 28.125rem;
   border-radius: 10px;
   background-color: var(--white);
 
@@ -38,8 +38,8 @@ body {
 }
 
 .img-parfum-container {
-  width: 350px;
-  height: 450px;
+  width: 21.875rem;
+  height: 28.125rem;
 }
 
 .img-parfum {
@@ -56,26 +56,27 @@ body {
   color: var(--aurometal-saurus);
   display: inline-block;
   font-family: 'Montserrat';
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.product-name {
+.product-name,
+.actual-price {
   color: var(--gunmetal);
   font-family: 'Fraunces';
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 2rem;
+  line-height: 2rem;
   margin-bottom: 24px;
 }
 
 .product-description {
   color: var(--aurometal-saurus);
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.4375rem;
   font-weight: var(--medium);
-  line-height: 23px;
   margin-bottom: 29px;
 }
 
@@ -89,31 +90,29 @@ body {
 
 .actual-price {
   color: var(--deep-aquamarine);
-  font-family: 'Fraunces';
-  font-size: 32px;
-  line-height: 32px;
+  margin-bottom: 0;
   font-weight: var(--bold);
 }
 
 .previous-price {
   color: var(--aurometal-saurus);
   font-family: 'Montserrat';
-  font-size: 13px;
-  line-height: 23px;
+  font-size: 0.8125rem;
+  line-height: 1.4375rem;
   font-weight: var(--medium);
   text-decoration: line-through;
 }
 
 .add-cart-btn {
-  width: 236px;
-  height: 48px;
+  width: 14.75rem;
+  height: 3rem;
   background-color: var(--deep-aquamarine);
   padding: 15px 62px;
   border: none;
   border-radius: 8px;
 
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: var(--bold);
   color: var(--white);
 
@@ -132,5 +131,5 @@ body {
 }
 
 .cart-icon {
-  height: 16px;
+  height: 1rem;
 }
