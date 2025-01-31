@@ -54,12 +54,13 @@ body {
 
 .overline {
   color: var(--aurometal-saurus);
-  display: inline-block;
+  display: block;
   font-family: 'Montserrat';
   font-size: 0.75rem;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  font-weight: var(--medium);
 }
 
 .product-name,

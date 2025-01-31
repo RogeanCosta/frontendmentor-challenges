@@ -22,7 +22,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 **Result for hover in Desktop Design**
 ![](./design/product-preview-card-component-desktop-hover-solution.PNG)
 
-**Result for mobile Design**
+**Result for mobile Design** </br>
 ![](./design/product-preview-card-component-mobile-solution.PNG)
 
 ### Links
