@@ -23,7 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ![](./design/product-preview-card-component-desktop-hover-solution.PNG)
 
 **Result for mobile Design**
-In construction...
+![](./design/product-preview-card-component-mobile-solution.PNG)
 
 ### Links
 

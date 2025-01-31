@@ -133,3 +133,49 @@ body {
 .cart-icon {
   height: 1rem;
 }
+
+@media (max-width: 650px) {
+  .container {
+    width: 21.4375rem;
+    height: 38.1875rem;
+    flex-direction: column;
+  }
+
+  .img-parfum-container {
+    width: 21.4375rem;
+    height: 15rem;
+  }
+
+  .img-parfum {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-info {
+    padding: 24px;
+  }
+
+  .overline {
+    margin-bottom: 12px;
+  }
+
+  .product-name {
+    margin-bottom: 16px;
+  }
+
+  .product-description {
+    margin-bottom: 24px;
+  }
+
+  .price-container {
+    margin-bottom: 20px;
+  }
+
+  .add-cart-btn {
+    width: 100%;
+    padding: 15px 92px;
+  }
+}
