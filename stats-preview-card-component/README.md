@@ -33,8 +33,8 @@ In construction...
 
 ### Links
 
-- Solution URL: In construction...
-- Live Site URL: In construction...
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/stats-preview-card-component
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/stats-preview-card-component/
 
 ## My process
 
