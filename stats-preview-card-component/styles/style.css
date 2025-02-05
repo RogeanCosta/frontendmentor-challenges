@@ -21,6 +21,7 @@
 
 body {
   font-family: 'Inter';
+  font-optical-sizing: none;
   color: var(--white);
   background-color: var(--main-background);
 
@@ -33,22 +34,20 @@ body {
 
 .card-container {
   background-color: var(--card-background);
-  width: 1110px;
-  height: 446px;
+  width: 69.375rem;
+  height: 27.875rem;
   border-radius: 8px;
 
   display: flex;
 }
 
 .card-info-container {
-  width: 570px;
-  padding: 71px 95px 59px 71.5px;
+  padding: 4.4375rem 5.9375rem 3.6875rem 4.46875rem;
 }
 
 .title-info-container {
-  font-size: 38px;
-  line-height: 44px;
-  font-weight: var(--bold);
+  font-size: 2.25rem;
+  line-height: 2.75rem;
   margin-bottom: 25px;
 }
 
@@ -57,17 +56,16 @@ body {
 }
 
 .paragraph-info-container {
-  width: 374px;
-  font-size: 15px;
-  line-height: 25px;
+  width: 21.875rem;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
   color: var(--transparent-white-paragraph);
   margin-bottom: 72px;
 }
 
 .card-stats-container {
-  width: 351.5px;
+  width: 21.96875rem;
   display: flex;
-  /* gap: 60px; */
 }
 
 .stat-container:first-child {
@@ -83,23 +81,23 @@ body {
 }
 
 .value {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: var(--bold);
   margin-bottom: 2px;
 }
 
 .quantity {
   font-family: 'Lexend Deca';
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
-  line-height: 25px;
+  line-height: 1.5625rem;
   color: var(--transparent-white-stats);
   text-transform: uppercase;
 }
 
 .card-img-container {
-  width: 540px;
-  height: 446px;
+  width: 33.75rem;
+  height: 27.875rem;
   position: relative;
 }
 

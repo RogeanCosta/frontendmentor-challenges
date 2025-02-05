@@ -17,14 +17,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Screenshot
 
 **Result for Desktop Design**
-In construction...
 
-<!-- ![](./design/product-preview-card-component-desktop-solution.PNG) -->
-
-**Result for hover in Desktop Design**
-In construction...
-
-<!-- ![](./design/product-preview-card-component-desktop-hover-solution.PNG) -->
+![](./design/stats-preview-card-component-desktop-solution.PNG)
 
 **Result for mobile Design** </br>
 In construction...
