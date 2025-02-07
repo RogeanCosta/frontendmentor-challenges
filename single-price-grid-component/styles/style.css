@@ -1,0 +1,145 @@
+:root {
+  /* Colors */
+  --cyan: #2ab3b1;
+  --cyan-2: #4abfbd;
+  --light-green: #c0df33;
+  --light-gray: #9aa7be;
+  --light-blue: #e6eff5;
+  --white: #ffffff;
+  --white-transparency-50: rgba(255, 255, 255, 0.5);
+  --white-transparency-75: rgba(255, 255, 255, 0.75);
+
+  /* Weights */
+  --regular: 400;
+  --bold: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-blue);
+  font-family: 'Karla';
+
+  /* Centralize */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  width: 635px;
+  height: 475px;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px 0 rgba(0, 80, 171, 0.1488);
+  grid-template-columns: 1fr 1fr;
+}
+
+.invitation-container {
+  background-color: var(--white);
+  grid-column: 1 / -1;
+  padding: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.invitation-title {
+  color: var(--cyan);
+  font-size: 24px;
+  font-weight: var(--bold);
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+}
+
+.invitation-info-1 {
+  color: var(--light-green);
+  font-size: 18px;
+  font-weight: var(--bold);
+  letter-spacing: -0.22px;
+  margin-bottom: 11px;
+}
+
+.invitation-info-2 {
+  color: var(--light-gray);
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.subscription-container {
+  background-color: var(--cyan);
+  padding: 40px;
+  border-bottom-left-radius: 8px;
+  color: var(--white);
+}
+
+.subscription-title {
+  font-size: 18px;
+  font-weight: var(--bold);
+  letter-spacing: -0.22px;
+  margin-bottom: 18px;
+}
+
+.subscription-plan-info {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 4px;
+}
+
+.subscription-value {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+}
+
+.subscription-period {
+  color: var(--white-transparency-50);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.subscription-info {
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  margin-bottom: 26px;
+}
+
+.subscription-btn {
+  display: inline-block;
+  background-color: var(--light-green);
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.0973);
+  padding: 15px 89px;
+}
+
+.reasons-container {
+  background-color: var(--cyan-2);
+  padding: 40px;
+  border-bottom-right-radius: 8px;
+}
+
+.reasons-title {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: var(--bold);
+  letter-spacing: -0.22px;
+  margin-bottom: 18px;
+}
+
+.reasons-list {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.17px;
+  color: var(--white-transparency-75);
+}
