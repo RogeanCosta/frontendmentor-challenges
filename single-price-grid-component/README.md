@@ -9,9 +9,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -23,9 +21,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ![](./design/stats-preview-card-component-desktop-solution.PNG)
 
 **Result for mobile Design** </br>
-In construction...
-
-<!-- ![](./design/stats-preview-card-component-mobile-solution.PNG) -->
+![](./design/stats-preview-card-component-mobile-solution.PNG)
 
 ### Links
 
@@ -41,13 +37,9 @@ In construction...
 - Flexbox
 - Grid CSS Layout
 
-### What I learned
-
 ### Continued development
 
 I would like to continue practicing Flexbox and CSS Grid Layout.
-
-### Useful resources
 
 ## Author
 

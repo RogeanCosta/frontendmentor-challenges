@@ -119,6 +119,8 @@ body {
   display: inline-block;
   background-color: var(--light-green);
   border-radius: 5px;
+  font-weight: var(--bold);
+  letter-spacing: -0.2px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.0973);
   padding: 0.9375rem 5.5625rem;
 }
@@ -139,4 +141,51 @@ body {
   line-height: 20px;
   letter-spacing: -0.17px;
   color: var(--white-transparency-75);
+}
+
+@media (max-width: 670px) {
+  .container {
+    width: 19.4375rem;
+    height: 45.125rem;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+  }
+
+  .invitation-container {
+    padding: 1.75rem 1.5rem 2rem 1.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .invitation-title {
+    font-size: 20px;
+    letter-spacing: -0.25px;
+  }
+
+  .invitation-info-1 {
+    font-size: 15px;
+    letter-spacing: -0.19px;
+    line-height: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .invitation-info-2 {
+    font-size: 14px;
+    letter-spacing: -0.17px;
+  }
+
+  .subscription-container {
+    padding: 1.5rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .subscription-btn {
+    padding: 0.9375rem 6.375rem;
+  }
+
+  .reasons-container {
+    background-color: var(--cyan-2);
+    padding: 1.5rem 3.0625rem 1.5rem 1.5rem;
+    border-bottom-right-radius: 0;
+  }
 }
