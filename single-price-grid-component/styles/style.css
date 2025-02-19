@@ -79,7 +79,8 @@ body {
   color: var(--white);
 }
 
-.subscription-title {
+.subscription-title,
+.reasons-title {
   font-size: 18px;
   font-weight: var(--bold);
   letter-spacing: -0.22px;
@@ -130,10 +131,6 @@ body {
 
 .reasons-title {
   color: var(--white);
-  font-size: 18px;
-  font-weight: var(--bold);
-  letter-spacing: -0.22px;
-  margin-bottom: 1.125rem;
 }
 
 .reasons-list {
