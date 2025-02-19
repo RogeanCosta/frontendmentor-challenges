@@ -29,8 +29,8 @@ In construction...
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/single-price-grid-component
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/single-price-grid-component/
 
 ## My process
 

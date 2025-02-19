@@ -33,8 +33,8 @@ body {
 
 .container {
   display: grid;
-  width: 635px;
-  height: 475px;
+  width: 39.6875rem;
+  height: 29.6875rem;
   border-radius: 8px;
   box-shadow: 0 15px 30px 0 rgba(0, 80, 171, 0.1488);
   grid-template-columns: 1fr 1fr;
@@ -43,7 +43,7 @@ body {
 .invitation-container {
   background-color: var(--white);
   grid-column: 1 / -1;
-  padding: 40px;
+  padding: 2.5rem;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -53,7 +53,7 @@ body {
   font-size: 24px;
   font-weight: var(--bold);
   letter-spacing: -0.3px;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .invitation-info-1 {
@@ -61,7 +61,7 @@ body {
   font-size: 18px;
   font-weight: var(--bold);
   letter-spacing: -0.22px;
-  margin-bottom: 11px;
+  margin-bottom: 0.6875rem;
 }
 
 .invitation-info-2 {
@@ -74,7 +74,7 @@ body {
 
 .subscription-container {
   background-color: var(--cyan);
-  padding: 40px;
+  padding: 2.5rem;
   border-bottom-left-radius: 8px;
   color: var(--white);
 }
@@ -83,14 +83,14 @@ body {
   font-size: 18px;
   font-weight: var(--bold);
   letter-spacing: -0.22px;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .subscription-plan-info {
   display: flex;
   align-items: center;
-  gap: 11px;
-  margin-bottom: 4px;
+  gap: 0.6875rem;
+  margin-bottom: 0.25rem;
 }
 
 .subscription-value {
@@ -111,7 +111,7 @@ body {
   font-weight: var(--regular);
   line-height: 26px;
   letter-spacing: -0.2px;
-  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 
 .subscription-btn {
@@ -119,12 +119,12 @@ body {
   background-color: var(--light-green);
   border-radius: 5px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.0973);
-  padding: 15px 89px;
+  padding: 0.9375rem 5.5625rem;
 }
 
 .reasons-container {
   background-color: var(--cyan-2);
-  padding: 40px;
+  padding: 2.5rem;
   border-bottom-right-radius: 8px;
 }
 
@@ -133,7 +133,7 @@ body {
   font-size: 18px;
   font-weight: var(--bold);
   letter-spacing: -0.22px;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .reasons-list {
