@@ -1,0 +1,50 @@
+:root {
+  /* Rose Colors */
+  --rose-50: #fff7fb;
+  --rose-800: #7a284e;
+
+  /* Stone Colors */
+  --stone-100: #f3e5d7;
+  --stone-150: #e3ddd7;
+  --stone-600: #5f564d;
+  --stone-900: #312e2c;
+
+  /* Others */
+  --brown-800: #854632;
+  --white: #ffffff;
+}
+
+/* Rose */
+.rose-50 {
+  color: var(--rose-50);
+}
+
+.rose-800 {
+  color: var(--rose-800);
+}
+
+/* Stone */
+.stone-100 {
+  color: var(--stone-100);
+}
+
+.stone-150 {
+  color: var(--stone-150);
+}
+
+.stone-600 {
+  color: var(--stone-600);
+}
+
+.stone-900 {
+  color: var(--stone-900);
+}
+
+/* Others */
+.brown-800 {
+  color: var(--brown-800);
+}
+
+.white {
+  color: var(--white);
+}
