@@ -1,11 +1,6 @@
+@import url('./general/global.css');
 @import url('./general/colors.css');
 @import url('./general/typography.css');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: var(--stone-100);
@@ -24,24 +19,18 @@ body {
   align-items: center;
 }
 
-main {
+.img-container {
+  width: 656px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+/* main {
   background-color: var(--white);
   width: 46rem;
   height: 106.25rem;
   padding: 2.5rem;
   border-radius: 1.5rem;
-}
-
-.img-container {
-  width: 41rem;
-  height: 18.75rem;
-  margin-bottom: 2.5rem;
-}
-
-.img {
-  display: block;
-  max-width: 100%;
-  border-radius: 0.75rem;
 }
 
 header {
@@ -104,11 +93,6 @@ li::marker {
 .ingredients-title,
 .instructions-title,
 .nutritional-title {
-  font-family: 'Young';
-  font-size: 1.75rem;
-  font-weight: 400;
-  line-height: 100%;
-  color: var(--brown-800);
   margin-bottom: 1.5rem;
 }
 
@@ -169,4 +153,4 @@ tr:last-child td {
     width: 38.5rem;
     height: 115.25rem;
   }
-}
+} */
