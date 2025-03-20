@@ -4,16 +4,6 @@
 
 body {
   background-color: var(--stone-100);
-
-  /* Inheritance */
-  font-family: 'Outfit';
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 150%;
-  color: var(--stone-600);
-
-  /* Centralize Card */
-  height: 122.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,132 +15,115 @@ body {
   margin-bottom: 40px;
 }
 
-/* main {
+main {
   background-color: var(--white);
-  width: 46rem;
-  height: 106.25rem;
-  padding: 2.5rem;
-  border-radius: 1.5rem;
+  width: 736px;
+  height: 1700px;
+  padding: 40px;
+  border-radius: 24px;
 }
 
-header {
-  margin-bottom: 2rem;
+.header-main {
+  margin-bottom: 32px;
 }
 
-.recipe-title {
-  font-family: 'Young';
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 100%;
-  color: var(--stone-900);
-  margin-bottom: 1.5rem;
+.header-main h1 {
+  margin-bottom: 24px;
 }
 
 .preparation {
   background-color: var(--rose-50);
-  padding: 1.5rem;
-  border-radius: 0.75rem;
-  margin-bottom: 2rem;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
 }
 
-.preparation-time {
-  color: var(--rose-800);
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 100%;
-  margin-bottom: 1rem;
+.preparation h2 {
+  margin-bottom: 16px;
 }
 
-ul {
-  margin-left: 1.5rem;
+.preparation ul,
+.ingredients ul,
+.instructions ol {
+  padding-left: 24px;
 }
 
-li {
-  padding-left: 1rem;
-  margin-bottom: 0.5rem;
+.preparation ul li,
+.ingredients ul li,
+.instructions ol li {
+  padding-left: 16px;
+  margin-bottom: 8px;
 }
 
-li:last-child {
+.preparation ul li:last-child,
+.ingredients ul li:last-child,
+.instructions ol li:last-child {
   margin-bottom: 0;
 }
 
-li::marker {
+.preparation ul li::marker {
   font-size: 0.75rem;
-}
-
-.preparation li::marker {
   color: var(--rose-800);
 }
 
 .ingredients {
-  margin-bottom: 2rem;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--stone-150);
 }
 
-.ingredients li::marker {
+.ingredients h2,
+.instructions h2,
+.nutritional h2 {
+  margin-bottom: 24px;
+}
+
+.ingredients ul {
+  padding-left: 24px;
+}
+
+.ingredients ul li::marker {
+  font-size: 0.75rem;
   color: var(--brown-800);
-}
-
-.ingredients-title,
-.instructions-title,
-.nutritional-title {
-  margin-bottom: 1.5rem;
 }
 
 .instructions {
-  padding: 2rem 0;
-  border-top: 1px solid var(--stone-150);
+  padding: 32px 0;
   border-bottom: 1px solid var(--stone-150);
-  margin-bottom: 2rem;
 }
 
-ol {
-  margin-left: 1.5rem;
-}
-
-ol li::marker {
+.instructions li::marker {
+  font: 700 1rem/1.5 'Outfit';
+  letter-spacing: 0px;
   color: var(--brown-800);
-  font-size: 1rem;
-  font-weight: 700;
 }
 
-.nutritional-description {
-  margin-bottom: 1.5rem;
+.nutritional {
+  padding-top: 32px;
 }
 
-table {
-  width: 41rem;
-  height: 10.5rem;
+.nutritional p {
+  margin-bottom: 24px;
 }
 
-td,
-th {
-  border-collapse: collapse;
+.nutritional table {
+  width: 656px;
+  height: 168px;
+}
+
+.nutritional table tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  gap: 16px;
+  padding: 12px 32px;
   border-bottom: 1px solid var(--stone-150);
-  text-align: start;
 }
 
-th {
-  width: 18rem;
-  font-weight: 400;
-  text-align: start;
-  padding-left: 2rem;
+.nutritional table tr:first-child {
+  padding-top: 0;
 }
 
-td {
-  width: 18rem;
-  color: var(--brown-800);
-  font-weight: 700;
-}
-
-tr:last-child th,
-tr:last-child td {
-  border-bottom: 0;
+.nutritional table tr:last-child {
+  border-bottom: none;
   padding-bottom: 0;
 }
-
-@media (max-width: 800px) {
-  main {
-    width: 38.5rem;
-    height: 115.25rem;
-  }
-} */
