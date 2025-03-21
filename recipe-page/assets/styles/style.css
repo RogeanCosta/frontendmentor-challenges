@@ -10,6 +10,7 @@ body {
 }
 
 .img-container {
+  display: block;
   width: 656px;
   height: 300px;
   margin-bottom: 40px;
@@ -126,4 +127,21 @@ main {
 .nutritional table tr:last-child {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 616px;
+    height: 1844px;
+  }
+
+  .img-container {
+    width: 536px;
+    height: 300px;
+  }
+
+  .nutritional table {
+    width: 536px;
+    height: 168px;
+  }
 }
