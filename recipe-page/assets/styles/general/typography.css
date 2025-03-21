@@ -34,3 +34,10 @@
 .text-p4-b {
   font-weight: 700;
 }
+
+@media (max-width: 400px) {
+  .text-p1 {
+    font: 400 2.25rem/1 'Young';
+    letter-spacing: 0px;
+  }
+}
