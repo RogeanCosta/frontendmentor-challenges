@@ -15,6 +15,7 @@
 
 body {
   color: white;
+  background-color: var(--very-light-gray);
 
   /* Centralize */
   min-height: 100vh;
