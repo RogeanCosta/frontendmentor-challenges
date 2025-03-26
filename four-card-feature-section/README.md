@@ -17,12 +17,10 @@ This is a solution to the [Four card feature section coding challenge](https://w
 ### Screenshot
 
 **Result for Desktop Design**
-![](./design/recipe-desktop-solution.PNG)
+![](./design/four-card-feature-section-desktop-solution.PNG)
 
 **Result for Tablet Design** </br>
-in construction...
-
-<!-- ![](./design/recipe-page-tablet-solution.PNG) -->
+![](./design/four-card-feature-section-tablet-solution.PNG)
 
 **Result for Mobile Design** </br>
 in construction....
@@ -31,8 +29,8 @@ in construction....
 
 ### Links
 
-<!-- - Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/recipe-page -->
-<!-- - Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/recipe-page/ -->
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/four-card-feature-section
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/four-card-feature-section/
 
 ## My process
 
