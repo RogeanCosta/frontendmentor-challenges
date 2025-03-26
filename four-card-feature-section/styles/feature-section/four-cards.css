@@ -6,6 +6,7 @@
 
 body {
   background: #fafafa;
+  min-height: 100vh;
 }
 
 main {
@@ -47,6 +48,7 @@ main {
   padding-top: 28px; /*Removing 4px from top because border-top*/
   border-radius: 8px;
   box-shadow: 0 15px 30px -11px rgba(131, 167, 210, 0.5);
+  background: var(--white);
 
   display: flex;
   flex-direction: column;
