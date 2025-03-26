@@ -23,9 +23,7 @@ This is a solution to the [Four card feature section coding challenge](https://w
 ![](./design/four-card-feature-section-tablet-solution.PNG)
 
 **Result for Mobile Design** </br>
-in construction....
-
-<!-- ![](./design/recipe-page-mobile-solution.PNG) -->
+![](./design/four-card-feature-section-mobile-solution.PNG)
 
 ### Links
 
