@@ -1,0 +1,31 @@
+.text-1 {
+  font: 600 2.25rem/1.4 'Poppins';
+  letter-spacing: 0.25px;
+}
+
+.text-2 {
+  font: 200 2.25rem/1.4 'Poppins';
+  letter-spacing: 0.25px;
+}
+
+.text-3 {
+  font: 600 1.25rem/1.35 'Poppins';
+  letter-spacing: 0;
+}
+
+.text-4 {
+  font: 400 0.9375rem/1.4 'Poppins';
+  letter-spacing: 0;
+}
+
+.text-5 {
+  font: 400 0.8125rem/1.6 'Poppins';
+  letter-spacing: 0;
+}
+
+@media (max-width: 400px) {
+  .text-1,
+  .text-2 {
+    font-size: 1.5rem;
+  }
+}
