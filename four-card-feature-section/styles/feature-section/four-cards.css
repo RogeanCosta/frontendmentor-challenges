@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #fafafa;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -40,6 +44,7 @@ main {
   width: 350px;
   height: 250px;
   padding: 32px;
+  padding-top: 28px; /*Removing 4px from top because border-top*/
   border-radius: 8px;
   box-shadow: 0 15px 30px -11px rgba(131, 167, 210, 0.5);
 
