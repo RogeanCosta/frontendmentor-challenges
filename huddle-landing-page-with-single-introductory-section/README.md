@@ -24,8 +24,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/huddle-landing-page-with-single-introductory-section/
 
 ## My process
 

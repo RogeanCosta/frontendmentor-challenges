@@ -12,6 +12,7 @@ img {
 body {
   background: #684bb1 url('../images/bg-desktop.svg') no-repeat;
   padding: 55px 85px 0 80px;
+  background-size: cover;
 }
 
 .header {
