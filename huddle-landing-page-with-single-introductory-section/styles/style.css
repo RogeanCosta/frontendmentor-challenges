@@ -55,7 +55,8 @@ body {
   margin-bottom: 24px;
 }
 
-.btn {
+.btn:link,
+.btn:visited {
   display: inline-block;
   font: 400 1.125rem/1.5 'Poppins';
   letter-spacing: 0;
@@ -67,10 +68,21 @@ body {
   text-decoration: none;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #e880e8;
+  color: #ffffff;
+}
+
 .social-links {
   display: flex;
   gap: 16px;
   position: absolute;
   bottom: 40px;
   right: 80px;
+}
+
+.social-links a:hover path,
+.social-links a:active path {
+  fill: #ff52c1;
 }

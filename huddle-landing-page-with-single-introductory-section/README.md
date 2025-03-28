@@ -18,6 +18,9 @@ This is a solution to the [Huddle landing page with single introductory section 
 **Result for Desktop Design**
 ![](./design/huddle-landing-page-with-single-introductory-section-desktop-solution.PNG)
 
+**Result for Desktop Active Links Design**
+![](./design/huddle-landing-page-with-single-introductory-section-desktop-active-links-solution.PNG)
+
 **Result for Mobile Design** </br>
 
 <!-- ![](./design/four-card-feature-section-mobile-solution.PNG) -->
