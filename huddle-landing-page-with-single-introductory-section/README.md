@@ -22,8 +22,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ![](./design/huddle-landing-page-with-single-introductory-section-desktop-active-links-solution.PNG)
 
 **Result for Mobile Design** </br>
-
-<!-- ![](./design/four-card-feature-section-mobile-solution.PNG) -->
+![](./design/huddle-landing-page-with-single-introductory-section-mobile-solution.PNG)
 
 ### Links
 
