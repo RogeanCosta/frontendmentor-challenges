@@ -26,8 +26,8 @@ In construction...
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/RogeanCosta/frontendmentor-challenges/tree/main/social-proof-section
+- Live Site URL: https://rogeancosta.github.io/frontendmentor-challenges/social-proof-section/
 
 ## My process
 
