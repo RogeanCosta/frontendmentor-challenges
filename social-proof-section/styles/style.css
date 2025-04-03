@@ -142,3 +142,68 @@ body {
   line-height: 22px;
   letter-spacing: -0.3px;
 }
+
+@media (max-width: 1250px) {
+  .container {
+    width: 800px;
+    height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    background: url('../images/bg-pattern-top-mobile.svg') no-repeat top left,
+      url('../images/bg-pattern-bottom-mobile.svg') no-repeat bottom right;
+  }
+
+  .container {
+    width: 450px;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 70px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    margin: 82px auto;
+    width: 327px;
+  }
+
+  .intro {
+    margin-bottom: 50px;
+  }
+
+  .intro-text h1 {
+    font-size: 2.5rem;
+    line-height: 0.8;
+    letter-spacing: -1.43px;
+  }
+
+  .intro-valuation-item {
+    width: 327px;
+    height: 78px;
+
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .testimonial {
+    height: auto;
+    gap: 16px;
+  }
+
+  .testimonial-item-header {
+    margin-bottom: 23px;
+  }
+}

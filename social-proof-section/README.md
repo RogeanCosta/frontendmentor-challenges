@@ -20,9 +20,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ![](./design/social-proof-section-desktop-solution.PNG)
 
 **Result for mobile Design** </br>
-In construction...
-
-<!-- ![](./design/3-column-preview-card-component-mobile-solution.PNG) -->
+![](./design/social-proof-section-mobile-solution.PNG)
 
 ### Links
 
