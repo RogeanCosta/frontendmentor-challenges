@@ -1,0 +1,37 @@
+body {
+  background-color: var(--white);
+}
+
+.hero-bg {
+  height: 488px;
+  padding: 64px 160px;
+
+  position: relative;
+
+  background: url('../assets/desktop/image-hero-left.png') no-repeat top 64px
+      left -26px,
+    url('../assets/desktop/image-hero-right.png') no-repeat bottom 64px right -26px;
+}
+
+.hero {
+  max-width: 112rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 44.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}

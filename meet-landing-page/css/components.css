@@ -1,9 +1,16 @@
+.button:link,
+.button:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white);
+  padding: 16px 40px;
+  border-radius: 29px;
+  transition: background-color 0.3s;
+}
+
 .button-blue:link,
 .button-blue:visited {
-  padding: 16px 40px;
   background-color: var(--cyan-600);
-  border-radius: 50%;
-  transition: background-color 0.3s;
 }
 
 .button-blue:hover,
@@ -13,10 +20,7 @@
 
 .button-purple:link,
 .button-purple:visited {
-  padding: 16px 40px;
   background-color: var(--purple-600);
-  border-radius: 50%;
-  transition: background-color 0.3s;
 }
 
 .button-purple:hover,
