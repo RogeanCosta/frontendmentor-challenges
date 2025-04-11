@@ -1,0 +1,29 @@
+.text-preset-1,
+.text-preset-2,
+.text-preset-4,
+.text-preset-5 {
+  color: var(--slate-900);
+  letter-spacing: 0;
+}
+
+.text-preset-1 {
+  font: 900 6.4rem/1.1 'Red Hat Display';
+}
+
+.text-preset-2 {
+  font: 900 4rem/1.1 'Red Hat Display';
+}
+
+.text-preset-3 {
+  font: 900 1.6rem/1.1 'Red Hat Display';
+  color: var(--cyan-600);
+  letter-spacing: 4px;
+}
+
+.text-preset-4 {
+  font: 500 1.8rem/1.5 'Red Hat Display';
+}
+
+.text-preset-5 {
+  font: 900 1.6rem/1.5 'Red Hat Display';
+}

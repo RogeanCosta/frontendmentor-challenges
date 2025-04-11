@@ -1,0 +1,25 @@
+.button-blue:link,
+.button-blue:visited {
+  padding: 16px 40px;
+  background-color: var(--cyan-600);
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.button-blue:hover,
+.button-blue:active {
+  background-color: var(--cyan-300);
+}
+
+.button-purple:link,
+.button-purple:visited {
+  padding: 16px 40px;
+  background-color: var(--purple-600);
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.button-purple:hover,
+.button-purple:active {
+  background-color: var(--purple-300);
+}

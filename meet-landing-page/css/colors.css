@@ -1,0 +1,51 @@
+:root {
+  /* Purple */
+  --purple-300: #d9b8ff;
+  --purple-600: #855fb1;
+
+  /* Slate */
+  --slate-300: #d1d1df;
+  --slate-600: #87879d;
+  --slate-900: #28283d;
+
+  /* Cyan */
+  --cyan-300: #8fe3f9;
+  --cyan-600: #4d9fa9;
+
+  /*White and gray colors*/
+  --white: #fafafa;
+}
+
+/* ===== Utility Classes ===== */
+/* Purple */
+.purple-300 {
+  color: var(--purple-300);
+}
+
+.purple-600 {
+  color: var(--purple-600);
+}
+
+/* Slate */
+.slate-300 {
+  color: var(--slate-300);
+}
+.slate-600 {
+  color: var(--slate-600);
+}
+.slate-900 {
+  color: var(--slate-900);
+}
+
+/* Cyan */
+.cyan-300 {
+  color: var(--cyan-300);
+}
+.cyan-600 {
+  color: var(--cyan-600);
+}
+
+/* White and Gray colors */
+.white {
+  color: var(--white);
+}
