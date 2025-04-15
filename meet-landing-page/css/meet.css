@@ -2,6 +2,14 @@ body {
   background-color: var(--white);
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 8rem;
+}
+
 .hero-bg {
   height: 488px;
   background: url('../assets/desktop/image-hero-left.png') no-repeat top 64px
