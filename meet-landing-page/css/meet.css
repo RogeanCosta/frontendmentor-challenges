@@ -4,26 +4,19 @@ body {
 
 .hero-bg {
   height: 488px;
-  padding: 64px 160px;
-
-  position: relative;
-
   background: url('../assets/desktop/image-hero-left.png') no-repeat top 64px
       left -26px,
     url('../assets/desktop/image-hero-right.png') no-repeat bottom 64px right -26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero {
-  max-width: 112rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.hero-content {
   max-width: 44.8rem;
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
