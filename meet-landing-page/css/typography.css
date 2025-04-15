@@ -18,6 +18,7 @@
   font: 900 1.6rem/1.1 'Red Hat Display';
   color: var(--cyan-600);
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .text-preset-4 {

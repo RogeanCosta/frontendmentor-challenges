@@ -12,6 +12,7 @@ body {
 
 .hero-bg {
   height: 488px;
+  margin-bottom: 56px;
   background: url('../assets/desktop/image-hero-left.png') no-repeat top 64px
       left -26px,
     url('../assets/desktop/image-hero-right.png') no-repeat bottom 64px right -26px;
@@ -35,4 +36,36 @@ body {
   display: flex;
   justify-content: center;
   gap: 17px;
+}
+
+.main {
+  margin-bottom: 72px;
+}
+
+.main-image-content {
+  height: 25.6rem;
+  margin-bottom: 6.4rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.main-image-content img {
+  border-radius: 8px;
+}
+
+.main-text-content {
+  width: 544px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-text-content span {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.main-text-content h2 {
+  margin-bottom: 32px;
 }
