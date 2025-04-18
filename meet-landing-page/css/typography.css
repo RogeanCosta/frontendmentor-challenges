@@ -6,11 +6,17 @@
   letter-spacing: 0;
 }
 
+.text-preset-2-w,
+.text-preset-4-w {
+  color: var(--white);
+}
+
 .text-preset-1 {
   font: 900 6.4rem/1.1 'Red Hat Display';
 }
 
-.text-preset-2 {
+.text-preset-2,
+.text-preset-2-w {
   font: 900 4rem/1.1 'Red Hat Display';
 }
 
@@ -21,7 +27,8 @@
   text-transform: uppercase;
 }
 
-.text-preset-4 {
+.text-preset-4,
+.text-preset-4-w {
   font: 500 1.8rem/1.5 'Red Hat Display';
 }
 
