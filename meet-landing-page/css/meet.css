@@ -12,7 +12,7 @@ body {
 
 .hero-bg {
   height: 488px;
-  margin-bottom: 56px;
+  margin-bottom: 256px;
   background: url('../assets/desktop/image-hero-left.png') no-repeat top 64px
       left -26px,
     url('../assets/desktop/image-hero-right.png') no-repeat bottom 64px right -26px;
@@ -39,7 +39,16 @@ body {
 }
 
 .main {
-  margin-bottom: 72px;
+  margin-bottom: 180px;
+  position: relative;
+}
+
+.main::before {
+  content: url(../assets/desktop/number-01.svg);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateY(50%);
 }
 
 .main-image-content {
@@ -94,6 +103,13 @@ body {
   justify-content: space-around;
   gap: 32px;
   padding: 112px 80px;
+  position: relative;
+}
+
+.footer::before {
+  content: url(../assets/desktop/number-02.svg);
+  position: absolute;
+  top: -108px;
 }
 
 .footer-title {
